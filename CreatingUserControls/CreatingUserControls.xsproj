@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(XSharpMsBuildDir)\XSharp.Default.props" />
+  <PropertyGroup>
+    <Name>CreatingUserControls</Name>
+    <ProjectGuid>ac8e5560-6b37-4da8-a5a9-528667bd584b</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CreatingUserControls</RootNamespace>
+    <AssemblyName>CreatingUserControls</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <Dialect>FoxPro</Dialect>
+    <Allowdot>True</Allowdot>
+    <NamedArgs>True</NamedArgs>
+    <OutputName>CreatingUserControls</OutputName>
+    <StartupObject />
+    <LB>True</LB>
+    <InitLocals>True</InitLocals>
+    <AllowOldStyleAssignments>True</AllowOldStyleAssignments>
+    <Fox2>True</Fox2>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <Import Project="$(XSharpMsBuildDir)\XSharp.targets" />
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="XSharp.Core">
+      <Name>XSharp.Core</Name>
+      <SpecificVersion>False</SpecificVersion>
+      <AssemblyName>XSharp.Core.dll</AssemblyName>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="XSharp.RT">
+      <Name>XSharp.RT</Name>
+      <SpecificVersion>False</SpecificVersion>
+      <AssemblyName>XSharp.RT.dll</AssemblyName>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.RT.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="XSharp.VFP">
+      <Name>XSharp.VFP</Name>
+      <SpecificVersion>False</SpecificVersion>
+      <AssemblyName>XSharp.VFP.dll</AssemblyName>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.VFP.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.prg">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="frmMain.prg">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.prg">
+      <DependentUpon>frmMain.prg</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.prg">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <PreBuildEvent />
+    <PostBuildEvent />
+    <RunPostBuildEvent />
+  </PropertyGroup>
+</Project>
