@@ -1,22 +1,29 @@
-﻿USING System
-USING System.Collections.Generic
-USING System.ComponentModel
-USING System.Data
-USING System.Drawing
-USING System.Linq
+﻿Using System
+Using System.Collections.Generic
+Using System.ComponentModel
+Using System.Data
+Using System.Drawing
+Using System.Linq
 
-USING System.Text
-using System.Threading.Tasks
+Using System.Text
+Using System.Threading.Tasks
 
-USING System.Windows.Forms
+Using System.Windows.Forms
 
-BEGIN NAMESPACE CreatingUserControls
+Begin Namespace CreatingUserControls
 
-    Public Partial Class frmMain Inherit System.Windows.Forms.Form
+    Public Partial Class frmMain ;
+        Inherit System.Windows.Forms.Form
 
-        PUBLIC CONSTRUCTOR()   STRICT
+        Public Constructor()   Strict
             InitializeComponent()
-            RETURN
-        END CONSTRUCTOR
-    END CLASS
-END NAMESPACE
+            Return
+        End Constructor
+        
+        Private Method cmdClose_Click(sender As System.Object, e As System.EventArgs) As Void Strict
+            This.Close()
+            
+            Return
+        End Method
+    End Class 
+End Namespace
