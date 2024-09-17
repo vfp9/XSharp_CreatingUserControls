@@ -280,7 +280,7 @@
     <value>vcrButtons1</value>
   </data>
   <data name="&gt;&gt;vcrButtons1.Type" xml:space="preserve">
-    <value>CreatingUserControls.VCRButtons, CreatingUserControls, Version=1.0.9025.21410, Culture=neutral, PublicKeyToken=null</value>
+    <value>CreatingUserControls.VCRButtons, CreatingUserControls, Version=1.0.9026.23616, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;vcrButtons1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -304,7 +304,7 @@
     <value>openFile1</value>
   </data>
   <data name="&gt;&gt;openFile1.Type" xml:space="preserve">
-    <value>CreatingUserControls.OpenFile, CreatingUserControls, Version=1.0.9025.21410, Culture=neutral, PublicKeyToken=null</value>
+    <value>CreatingUserControls.OpenFile, CreatingUserControls, Version=1.0.9026.23616, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;openFile1.Parent" xml:space="preserve">
     <value>$this</value>
