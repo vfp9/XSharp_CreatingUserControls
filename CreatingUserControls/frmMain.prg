@@ -19,11 +19,11 @@ Begin Namespace CreatingUserControls
             InitializeComponent()
             Return
         End Constructor
-        
+
         Private Method cmdClose_Click(sender As System.Object, e As System.EventArgs) As Void Strict
             This.Close()
             
             Return
         End Method
-    End Class 
+    End Class
 End Namespace

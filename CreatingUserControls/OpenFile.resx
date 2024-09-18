@@ -117,12 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="txtFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 8</value>
+    <value>0, 3</value>
   </data>
   <data name="txtFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>937, 28</value>
+    <value>764, 28</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="txtFile.TabIndex" type="System.Int32, mscorlib">
@@ -140,6 +144,9 @@
   <data name="&gt;&gt;txtFile.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="cmdOpen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
   <data name="cmdOpen.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -155,10 +162,10 @@
     <value>MiddleLeft</value>
   </data>
   <data name="cmdOpen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>949, 4</value>
+    <value>764, 0</value>
   </data>
   <data name="cmdOpen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 37</value>
+    <value>79, 34</value>
   </data>
   <data name="cmdOpen.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -191,7 +198,7 @@
     <value>9, 18</value>
   </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1033, 45</value>
+    <value>843, 34</value>
   </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
