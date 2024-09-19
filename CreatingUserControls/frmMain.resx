@@ -207,6 +207,9 @@
   <data name="cmdSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
+  <data name="cmdSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="cmdSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -268,10 +271,10 @@
     <value>Bottom, Left</value>
   </data>
   <data name="vcrButtons1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 566</value>
+    <value>14, 569</value>
   </data>
   <data name="vcrButtons1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 41</value>
+    <value>408, 41</value>
   </data>
   <data name="vcrButtons1.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -280,7 +283,7 @@
     <value>vcrButtons1</value>
   </data>
   <data name="&gt;&gt;vcrButtons1.Type" xml:space="preserve">
-    <value>CreatingUserControls.VCRButtons, CreatingUserControls, Version=1.0.9027.4738, Culture=neutral, PublicKeyToken=null</value>
+    <value>CreatingUserControls.VCRButtons, CreatingUserControls, Version=1.0.9028.21196, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;vcrButtons1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -304,7 +307,7 @@
     <value>openFile1</value>
   </data>
   <data name="&gt;&gt;openFile1.Type" xml:space="preserve">
-    <value>CreatingUserControls.OpenFile, CreatingUserControls, Version=1.0.9027.4738, Culture=neutral, PublicKeyToken=null</value>
+    <value>CreatingUserControls.OpenFile, CreatingUserControls, Version=1.0.9028.21196, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;openFile1.Parent" xml:space="preserve">
     <value>$this</value>
