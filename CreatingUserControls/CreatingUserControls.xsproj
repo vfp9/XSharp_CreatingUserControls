@@ -17,6 +17,9 @@
     <InitLocals>True</InitLocals>
     <AllowOldStyleAssignments>True</AllowOldStyleAssignments>
     <Fox2>True</Fox2>
+    <Vo15>true</Vo15>
+    <Vo9>true</Vo9>
+    <Fox1>true</Fox1>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -39,22 +42,22 @@
       <Name>XSharp.Core</Name>
       <SpecificVersion>False</SpecificVersion>
       <AssemblyName>XSharp.Core.dll</AssemblyName>
-      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.Core.dll</HintPath>
       <Private>True</Private>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="XSharp.RT">
       <Name>XSharp.RT</Name>
       <SpecificVersion>False</SpecificVersion>
       <AssemblyName>XSharp.RT.dll</AssemblyName>
-      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.RT.dll</HintPath>
       <Private>True</Private>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.RT.dll</HintPath>
     </Reference>
     <Reference Include="XSharp.VFP">
       <Name>XSharp.VFP</Name>
       <SpecificVersion>False</SpecificVersion>
       <AssemblyName>XSharp.VFP.dll</AssemblyName>
-      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.VFP.dll</HintPath>
       <Private>True</Private>
+      <HintPath>D:\Program Files (x86)\XSharp\XSharp\Assemblies\XSharp.VFP.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -110,14 +113,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="OpenFile.zh-CN.resx">
-      <SubType>Designer</SubType>
-      <Generator>ResXFileCodeGenerator</Generator>
+    <EmbeddedResource Include="VCRButtons.resx">
+      <DependentUpon>VCRButtons.prg</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="VCRButtons.resx">
-      <DependentUpon>VCRButtons.prg</DependentUpon>
+    <EmbeddedResource Include="OpenFile.zh-CN.resx">
+      <DependentUpon>OpenFile.prg</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
